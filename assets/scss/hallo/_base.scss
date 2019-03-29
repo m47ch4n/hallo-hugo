@@ -9,6 +9,14 @@ html {
     font-family: $sans-serif;
     font-size: 16px;
     overflow-y: auto;
+
+    @media screen and (max-width: $break-mediam) {
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: $break-small) {
+        font-size: 10px;
+    }
 }
 
 body {
@@ -36,7 +44,19 @@ h2 {
 img.portrait {
     border-radius: 50%;
     border: 10px solid $color-foreground;
-    margin: 2em 3em;
+    margin: 2em 2em;
     width: 300px;
     height: 300px;
+
+    @media screen and (max-width: $break-mediam) {
+        border: 5px solid $color-foreground;
+        width: 250px;
+        height: 250px;
+    }
+
+    @media screen and (max-width: $break-small) {
+        border: 5px solid $color-foreground;
+        width: 200px;
+        height: 200px;
+    }
 }

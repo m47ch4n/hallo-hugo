@@ -3,6 +3,8 @@ $sans-serif: Montserrat, 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-se
 
 // Responsive breaks
 $break-large: 980px;
+$break-mediam: 480px;
+$break-small: 374px;
 
 @mixin transition($args...) {
     -webkit-transition: $args;

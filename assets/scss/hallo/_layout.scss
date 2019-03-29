@@ -10,6 +10,10 @@ main {
         text-align: end;
     }
 
+    .column.center {
+        text-align: center;
+    }
+
     .column.right {
         h1 {
             margin-left: -10px; /* Correction for margin of leftmost character. */
@@ -23,7 +27,7 @@ main {
         
         .links {
             margin-top: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 3.5rem;
 
             a {
                 margin-right: 0.5rem;
@@ -40,8 +44,11 @@ main {
             text-align: center;
         }
 
-        .column.right h1 {
-            margin-top: 0;
+        .column.right {
+            text-align: center;
+            h1 {
+                margin-top: 0;
+            }
         }
     }
 }
